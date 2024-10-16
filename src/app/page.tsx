@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from '../../public/Images/cleaner-animation.png';
+import img from '../../public/images/cleaner-animation.png';
 
 export default function Home() {
   return (
