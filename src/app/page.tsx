@@ -1,4 +1,5 @@
 import Image from "next/image";
+import img from '../../public/Images/cleaner-animation.png';
 
 export default function Home() {
   return (
@@ -97,7 +98,7 @@ export default function Home() {
         </a>
       </footer>
       <Image
-          src="/images/cleaner-animation.png"
+          src={img}
           alt="Next.js logo"
           width={180}
           height={38}
